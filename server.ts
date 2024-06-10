@@ -13,4 +13,3 @@ app.use(cors())
 app.use('/api/graphql', jsonGraphqlExpress(data));
 
 app.listen(PORT);
-console.log(data)
